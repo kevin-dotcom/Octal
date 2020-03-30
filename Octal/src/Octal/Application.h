@@ -3,8 +3,8 @@
 #include "Core.h"
 
 namespace Octal {
-
-	class HAZEL_API Application {
+	
+	class OCTAL_API Application {
 	public:
 		Application();
 		virtual ~Application();
@@ -16,4 +16,3 @@ namespace Octal {
 	Application* createApplication();
 
 }
-

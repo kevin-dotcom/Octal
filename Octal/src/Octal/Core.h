@@ -2,10 +2,10 @@
 
 #ifdef OC_PLATFORM_WINDOWS
 	#ifdef OC_BUILD_DLL
-		#define HAZEL_API _declspec(dllexport)
+		#define OCTAL_API _declspec(dllexport)
 	#else
-		#define HAZEL_API _declspec(dllexport)
+		#define OCTAL_API _declspec(dllimport)
 	#endif
 #else
-	#error Hazel only supports Windows
+	#error Hazel only supports Windows!
 #endif

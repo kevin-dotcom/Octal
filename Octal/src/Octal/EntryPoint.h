@@ -5,7 +5,7 @@
 extern Octal::Application* Octal::createApplication();
 
 int main(int argc, char** argv) {
-	printf("Octal Engine");
+	printf("Octal Engine\n");
 
 	auto app = Octal::createApplication();
 

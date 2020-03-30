@@ -1,9 +1,9 @@
 #pragma once
 
-// For use by Octal applications
+// For use by Octal 
 
-#include <stdio.h>
 #include "Octal\Application.h"
 
-// --Entry Point --
+// ---Entry Point--------------------
 #include "Octal\EntryPoint.h"
+// ----------------------------------
